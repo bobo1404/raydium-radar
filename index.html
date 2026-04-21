@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Dashboard</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body { font-family: sans-serif; background: #1c1c1c; color: white; text-align: center; padding: 20px; }
+        .card { background: #2b2b2b; padding: 20px; border-radius: 15px; border: 1px solid #0088cc; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
+        button { background: #0088cc; color: white; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-size: 16px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>🧠 رادار الريديوم - الذكي</h2>
+        <p>مرحباً بك في واجهة التحكم الخاصة ببوتك.</p>
+        <button onclick="Telegram.WebApp.close()">إغلاق الواجهة</button>
+    </div>
+    <script>
+        // إخبار تليجرام أن الواجهة جاهزة
+        Telegram.WebApp.ready();
+    </script>
+</body>
+</html>
